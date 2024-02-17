@@ -7,9 +7,9 @@ class Program {
       Console.WriteLine("Enter Something: ");
       string input = Console.ReadLine();
 
-      if (input == "exit")
+      if (input.ToLower() == "exit")
       {
-        Console.WriteLine("closing program...");
+        Console.WriteLine("Closing program...");
         break;
       }
     }
